@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimscapeMultibodyImportXML xmlns="urn:mathworks:SimscapeMultibody:import"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            version="2.0">
+   <Created by="Shailesh Suthar" from="Onshape" on="04/15/23||21:45:53"
+            using="Simscape Multibody Exporter"/>
+   <ModelUnits length="inch" mass="pound"/>
+   <DataUnits length="meter" mass="kilogram"/>
+   <RootAssembly name="Assembly 1" uid="b42c7b1ab5a05cfdccc3cb3e"
+                 version="w-1b158271beeef4e0b74f5051">
+      <InstanceTree>
+         <Instance entityUid="JFD*:*c3216f6eed566e88f9b45bfc" name="1.2 Metatarsal Bottom &lt;1&gt;"
+                   uid="MxxZHZJjPc+MHBG/b">
+            <Transform>
+               <Rotation>1.000000000 -0.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 -1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.021330199 0.014946309 -0.027640814 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*a40a29df5897afbcc8b704c5" name="1.0 Metatarsal SLA &lt;2&gt;"
+                   uid="MdQlK97Cz8tnMIr/Q">
+            <Transform>
+               <Rotation>1.000000000 -0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 </Rotation>
+               <Translation>-0.021907457 0.020477017 -0.025140814 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*6f0c1ccd47bf0fcb733d5b66" name="1.1 Metatarsal Top &lt;1&gt;"
+                   uid="MbXQPLKM84CenkC1a">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 -0.000000000 1.000000000 0.000000000 </Rotation>
+               <Translation>-0.018340641 -0.028588387 -0.022640814 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*5300474a52a72e584ff6563e"
+                   name="1.7 Coupling Shaft Cap Metal &lt;1&gt;"
+                   uid="M1YPhaEKOwUHc7qHF">
+            <Transform>
+               <Rotation>0.000000000 -0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 </Rotation>
+               <Translation>0.013698224 -0.002538387 -0.025140814 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*a40a29df5897afbcc8b704c5" grounded="true"
+                   name="1.0 Metatarsal SLA &lt;1&gt;"
+                   uid="MOIh3H/qq+iHJ7faA">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.021907457 -0.034053317 -0.025140814 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*85562c3686b01a34d69359d3" name="1.3 Yaw Link Top &lt;1&gt;"
+                   uid="MBjab/LNcCRS+kaWc">
+            <Transform>
+               <Rotation>1.000000000 -0.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 -1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.002203024 -0.005913387 -0.020140814 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*06772d55eaf6acaa7c60d089"
+                   name="1.5 Forefoot Roll Link metal &lt;1&gt;"
+                   uid="MCOsCvT+Jl1eEXPYQ">
+            <Transform>
+               <Rotation>0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 1.000000000 -0.000000000 0.000000000 </Rotation>
+               <Translation>0.019448224 -0.006788387 -0.025140814 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*2773b4c3f5444898cf9b193d" name="1.6 Coupling Shaft Metal &lt;1&gt;"
+                   uid="M0XPSiUBOP8hz/8wR">
+            <Transform>
+               <Rotation>0.000000000 -0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 </Rotation>
+               <Translation>0.013698224 -0.011038387 -0.025140814 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*908dafd78bd655588e03928a" name="1.4 Yaw Link Bottom &lt;1&gt;"
+                   uid="MSUMG5UU07BUYGO9J">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 -0.000000000 -0.000000000 0.000000000 -1.000000000 -0.000000000 1.000000000 0.000000000 </Rotation>
+               <Translation>-0.002203024 -0.007663387 -0.030140814 </Translation>
+            </Transform>
+         </Instance>
+      </InstanceTree>
+      <Constraints/>
+      <Joints>
+         <Weld name="Fastened1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MdQlK97Cz8tnMIr/Q</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.024476471 -0.000000000 -0.027265167 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MOIh3H/qq+iHJ7faA</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.024476471 -0.000000000 -0.027265167 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MOIh3H/qq+iHJ7faA</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.001243699 0.003000000 -0.027265158 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MbXQPLKM84CenkC1a</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.004810514 0.000500000 -0.021800229 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MdQlK97Cz8tnMIr/Q</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.001243699 0.003000000 -0.027265158 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MxxZHZJjPc+MHBG/b</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.001820956 0.000500000 -0.021734450 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Revolute name="Revolute1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MbXQPLKM84CenkC1a</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.010696119 0.002300000 -0.021800000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MBjab/LNcCRS+kaWc</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.005441497 0.000200000 -0.000875000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Weld name="Fastened4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MBjab/LNcCRS+kaWc</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.001404251 0.005000000 -0.000875000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MSUMG5UU07BUYGO9J</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.001404251 0.005000000 -0.000875000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Revolute name="Revolute2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MSUMG5UU07BUYGO9J</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.015901249 0.005000000 0.005875000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M0XPSiUBOP8hz/8wR</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.000000000 0.002500000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Weld name="Fastened5">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M0XPSiUBOP8hz/8wR</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.009950000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M1YPhaEKOwUHc7qHF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.000000000 -0.001450000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Weld name="Fastened6">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M0XPSiUBOP8hz/8wR</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.000500000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MCOsCvT+Jl1eEXPYQ</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.003750000 0.005750000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+      </Joints>
+   </RootAssembly>
+   <Assemblies/>
+   <Parts>
+      <Part name="1.5 Forefoot Roll Link metal" uid="JFD*:*06772d55eaf6acaa7c60d089">
+         <ModelUnits length="inch" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="1.5 Forefoot Roll Link metal.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="1.6 Coupling Shaft Metal" uid="JFD*:*2773b4c3f5444898cf9b193d">
+         <ModelUnits length="inch" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="1.6 Coupling Shaft Metal.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="1.7 Coupling Shaft Cap Metal" uid="JFD*:*5300474a52a72e584ff6563e">
+         <ModelUnits length="inch" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="1.7 Coupling Shaft Cap Metal.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="1.1 Metatarsal Top" uid="JFD*:*6f0c1ccd47bf0fcb733d5b66">
+         <ModelUnits length="inch" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="1.1 Metatarsal Top.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.231372549" g="0.603921569" r="0.796078431"/>
+            <Diffuse a="1.000000000" b="0.231372549" g="0.603921569" r="0.796078431"/>
+            <Specular a="1.000000000" b="0.231372549" g="0.603921569" r="0.796078431"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="1.3 Yaw Link Top" uid="JFD*:*85562c3686b01a34d69359d3">
+         <ModelUnits length="inch" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="1.3 Yaw Link Top.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="1.4 Yaw Link Bottom" uid="JFD*:*908dafd78bd655588e03928a">
+         <ModelUnits length="inch" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="1.4 Yaw Link Bottom.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="1.0 Metatarsal SLA" uid="JFD*:*a40a29df5897afbcc8b704c5">
+         <ModelUnits length="inch" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="1.0 Metatarsal SLA.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="1.2 Metatarsal Bottom" uid="JFD*:*c3216f6eed566e88f9b45bfc">
+         <ModelUnits length="inch" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="1.2 Metatarsal Bottom.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.996078431" r="0.996078431"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.996078431" r="0.996078431"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.996078431" r="0.996078431"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+   </Parts>
+</SimscapeMultibodyImportXML>
